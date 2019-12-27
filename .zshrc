@@ -21,7 +21,7 @@ fi
 # https://github.com/zdharma/zplugin/wiki/INSTALLATION
 #
 
-. "${HOME}/.zsh/rc/exports.rc.zsh"
+source "${HOME}/.zsh/rc/10_exports.zsh"
 
 ### Added by Zplugin's installer
 source "$HOME/.zplugin/bin/zplugin.zsh"
@@ -35,6 +35,7 @@ zplugin snippet OMZ::lib/git.zsh
 zplugin ice wait'!0'; zplugin load zsh-users/zsh-syntax-highlighting 
 zplugin ice wait'!0'; zplugin load zsh-users/zsh-completions 
 
+source "${HOME}/.zsh/rc/30_aliases.zsh"
 source "${HOME}/.zsh/rc/50_options.zsh"
 source "${HOME}/.zsh/rc/70_misc.zsh"
 source "${HOME}/.zsh/rc/80_custom.zsh"
