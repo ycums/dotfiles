@@ -21,3 +21,4 @@
   co = checkout
   ri = ribase -i
   cam = commit -a --amend
+	push-f = push --force-with-lease

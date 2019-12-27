@@ -53,4 +53,4 @@ zplugin snippet --command \
 zplugin ice depth=1; zplugin light romkatv/powerlevel10k
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f ~/.zsh/rc/p10k.zsh ]] || source ~/.zsh/rc/p10k.zsh
