@@ -1,0 +1,23 @@
+[user]
+  name = ycums
+  email = ycums00@gmail.com
+
+[core]
+  editor = code --wait
+
+[branch]
+  autosetuprebase = always
+
+[pull]
+  rebase = true
+
+[diff]
+  tool = default-difftool
+
+[difftool "default-difftool"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+
+[alias]
+  co = checkout
+  ri = ribase -i
+  cam = commit -a --amend
