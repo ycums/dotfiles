@@ -19,6 +19,6 @@
 
 [alias]
   co = checkout
-  ri = ribase -i
+  ri = rebase -i
   cam = commit -a --amend
 	push-f = push --force-with-lease
