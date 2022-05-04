@@ -4,9 +4,9 @@
 bash -c "$(curl -fsSL https://raw.github.com/ycums/dotfiles/master/install.sh)"
 ```
 
-zpluginが必要なので
+zinit が必要なので
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 ```
 
 あとは 
